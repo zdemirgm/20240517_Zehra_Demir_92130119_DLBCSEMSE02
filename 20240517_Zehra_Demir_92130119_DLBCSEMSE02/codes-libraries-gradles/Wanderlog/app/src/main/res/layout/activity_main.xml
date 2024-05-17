@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:padding="16dp"
+    tools:context="com.example.wanderlog.MainActivity">
+
+    <!-- Add Entry Button -->
+    <Button
+        android:id="@+id/buttonAddEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        style="@style/ButtonStyle"
+        android:text="@string/add_entry" />
+
+    <Button
+        android:id="@+id/buttonPins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddEntry"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="Pins"
+        android:background="@drawable/rounded_button_background"
+        tools:ignore="HardcodedText" /> <!-- Set the custom background here -->
+
+
+    <!-- List View for Entries -->
+    <ListView
+        android:id="@+id/listViewEntries"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonPins"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+
+</RelativeLayout>
+
+
+
+
