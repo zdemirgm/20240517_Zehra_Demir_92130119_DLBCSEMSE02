@@ -11,17 +11,21 @@ Detailed view of each entry.
 Material design compliant.
 Tested using unit tests.
 Easy to use and intuitive interface.
-Requirements
+
+
+#Requirements
 Android Studio
 Android SDK
 Emulator or Android device for testing
-Installation
+
+
+#Installation
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/yourusername/journaling-app.git
-Open the project in Android Studio.
+
+
+#Open the project in Android Studio.
 
 
 # Build the project using Gradle.
